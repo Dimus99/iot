@@ -1,0 +1,7 @@
+version: "3"
+services:
+  backend:
+    build: ./app
+    command: python ./server.py
+    ports:
+      - "80:80"
